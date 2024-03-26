@@ -4,6 +4,7 @@ import { Code } from "@repo/ui/code";
 import styles from "./page.module.css";
 import { Button } from "@repo/ui/button";
 import { Button2 } from "@repo/ui/button2"
+import { FaBeer } from 'react-icons/fa';
 
 function Gradient({
   conic,
@@ -84,6 +85,10 @@ export default function Page(): JSX.Element {
       </Button>
 
       <Button2></Button2>
+
+      <div>
+        <FaBeer />
+      </div>
 
       <div className={styles.hero}>
         <div className={styles.heroContent}>
